@@ -1,0 +1,299 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Figtree, ui-sans-serif, system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+body {
+  background-color: #fffffa;
+}
+nav {
+  max-width: 80vw;
+  height: 80px;
+  margin: auto;
+  /* background-color: blueviolet; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .logo {
+  cursor: pointer;
+}
+nav .menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+}
+nav .menu button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: #fffffa;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(33, 49, 48);
+  gap: 13px;
+  padding: 5px 10px;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+nav .menu button:hover {
+  background-color: rgb(242 242 232);
+}
+nav .menu a {
+  color: rgb(33, 49, 48);
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+nav .menu a:hover {
+  background-color: rgb(242 242 232);
+}
+nav .login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+nav .login button {
+  padding: 12px 22px;
+  border-radius: 40px;
+  border: none;
+  font-size: 18px;
+}
+nav .login :nth-child(1) {
+  background: transparent;
+  border: 1px solid black;
+  transition: all 0.1s ease-in-out;
+  cursor: pointer;
+}
+nav .login :nth-child(1):hover {
+  box-shadow: 0px 6px 1px black;
+}
+nav .login :nth-child(2) {
+  background-color: hsl(105 68% 77%);
+  transition: all 0.1s ease-in-out;
+  cursor: pointer;
+}
+nav .login :nth-child(2):hover {
+  border: 1px solid black;
+  box-shadow: 0px 6px 1px black;
+}
+.hero {
+  display: flex;
+  width: 80vw;
+  margin: auto;
+  background-color: hsl(60 29% 93%);
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  border-radius: 20px;
+}
+
+.hero .left :nth-child(1) {
+  font-size: 76px;
+  font-weight: 400;
+  color: rgb(33, 49, 48);
+  margin-bottom: 22px;
+}
+.hero .left :nth-child(2) {
+  font-size: 24px;
+  font-weight: 400;
+  color: rgb(33, 49, 48);
+  margin-bottom: 35px;
+}
+.hero .left :nth-child(3) {
+  width: 378px;
+  height: 63px;
+  border-radius: 40px;
+  border: 1px solid black;
+  padding: 20px;
+  font-size: 18px;
+  color: rgb(33, 49, 48);
+  margin-right: 11px;
+  border: 1px solid black;
+}
+.hero .left :nth-child(4) {
+  padding: 20px 20px;
+  background-color: hsl(105 68% 77%);
+  border: 1px solid black;
+  border-radius: 40px;
+  font-size: 18px;
+  color: rgb(33, 49, 48);
+  cursor: pointer;
+}
+.hero .left :nth-child(5) {
+  font-size: 13px;
+  margin-top: 20px;
+  color: rgb(89, 100, 99);
+}
+
+.hero .right {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+.hero .right button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 76px;
+  background-color: hsl(60 29% 93%);
+  border: 1px solid black;
+  color: rgb(33, 49, 48);
+  border-radius: 10px;
+}
+.hero .right :nth-child(1) {
+  opacity: 0.33;
+}
+.hero .right :nth-child(1) img {
+  transform: rotate(100deg);
+}
+.hero .right .mid-btn {
+  border: none;
+  position: relative;
+  right: 101px;
+  bottom: 26px;
+}
+.hero .right :nth-child(3) {
+  opacity: 0.33;
+}
+.hero .right :nth-child(3) img {
+  transform: rotate(100deg);
+}
+.hero .right :nth-child(4) {
+  padding: 0px 30px;
+  opacity: 0.33;
+}
+.hero .right :nth-child(4) img {
+  transform: rotate(100deg);
+}
+.hero .right button img {
+  width: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.socialProofHeading {
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 35px;
+}
+.socialProofHeading .box {
+  width: 375px;
+  height: 151px;
+  border: 1px solid black;
+  border-radius: 20px;
+  color: rgb(33, 49, 48);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+}
+.socialProofHeading .box :nth-child(1) {
+  font-size: 43px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.socialProofHeading .box :nth-child(2) {
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.FeatureSection_content {
+  background-color: #d2c5ff;
+  width: 80vw;
+  margin: auto;
+  margin-top: 40px;
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  padding: 53px 18px;
+  border-radius: 20px;
+}
+.FeatureSection_content .FeatureSection_imageLargeContainer img {
+  transition: transform 0.3s ease;
+}
+.FeatureSection_content .FeatureSection_imageLargeContainer img:hover {
+  transform: scale(1.05);
+}
+.FeatureSection_content .FeatureSection_contentLeading {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 669px;
+  margin-left: 6rem;
+}
+.FeatureSection_content .FeatureSection_contentLeading :nth-child(1) {
+  color: rgb(61, 31, 127);
+  font-size: 16px;
+  font-weight: 500;
+}
+.FeatureSection_content .FeatureSection_contentLeading :nth-child(2) {
+  font-size: 32px;
+  font-weight: 400;
+  color: rgb(33, 49, 48);
+}
+.FeatureSection_content .FeatureSection_contentLeading :nth-child(3) {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(33, 49, 48);
+}
+.FeatureSection_content .FeatureSection_contentLeading :nth-child(4) {
+  background-color: hsl(172 22% 20%);
+  width: 161px;
+  height: 50px;
+  cursor: pointer;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  transition: all 0.3s ease-in-out;
+}
+.FeatureSection_content .FeatureSection_contentLeading :nth-child(5) {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(33, 49, 48);
+}
+.FeatureSection_content .FeatureSection_contentLeading :nth-child(6) {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(33, 49, 48);
+}
+.FeatureSection_content .FeatureSection_contentLeading :nth-child(7) {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(33, 49, 48);
+}
+.FeatureSection_content .FeatureSection_contentLeading :nth-child(5) svg {
+  margin-right: 10px;
+}
+.FeatureSection_content .FeatureSection_contentLeading :nth-child(6) svg {
+  margin-right: 10px;
+}
+.FeatureSection_content .FeatureSection_contentLeading :nth-child(7) svg {
+  margin-right: 10px;
+}
