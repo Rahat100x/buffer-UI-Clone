@@ -219,7 +219,6 @@ nav .login :nth-child(2):hover {
   margin: auto;
   margin-top: 40px;
   display: flex;
-  /* justify-content: space-around; */
   align-items: center;
   padding: 53px 18px;
   border-radius: 20px;
@@ -296,4 +295,90 @@ nav .login :nth-child(2):hover {
 }
 .FeatureSection_content .FeatureSection_contentLeading :nth-child(7) svg {
   margin-right: 10px;
+}
+
+/* left-side */
+.FeatureSection_container__DP22G {
+  background-color: #FBC4BD;
+  width: 80vw;
+  margin: auto;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  padding: 53px 18px;
+  border-radius: 20px;
+}
+.FeatureSection_container__DP22G .FeatureSection_container__DP22G_left_content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 669px;
+  margin-left: 6rem;
+}
+.FeatureSection_container__DP22G .FeatureSection_container__DP22G_left_content :nth-child(1) {
+  color: rgb(61, 31, 127);
+  font-size: 16px;
+  font-weight: 500;
+}
+.FeatureSection_container__DP22G .FeatureSection_container__DP22G_left_content :nth-child(2) {
+  font-size: 32px;
+  font-weight: 400;
+  color: rgb(33, 49, 48);
+}
+.FeatureSection_container__DP22G .FeatureSection_container__DP22G_left_content :nth-child(3) {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(33, 49, 48);
+}
+.FeatureSection_container__DP22G .FeatureSection_container__DP22G_left_content :nth-child(4) {
+  background-color: hsl(172 22% 20%);
+  width: 161px;
+  height: 50px;
+  cursor: pointer;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  transition: all 0.3s ease-in-out;
+}
+.FeatureSection_container__DP22G .FeatureSection_container__DP22G_left_content :nth-child(5) {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(33, 49, 48);
+}
+.FeatureSection_container__DP22G .FeatureSection_container__DP22G_left_content :nth-child(6) {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(33, 49, 48);
+}
+.FeatureSection_container__DP22G .FeatureSection_container__DP22G_left_content :nth-child(7) {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(33, 49, 48);
+}
+.FeatureSection_container__DP22G .FeatureSection_container__DP22G_left_content :nth-child(5) svg {
+  margin-right: 10px;
+}
+.FeatureSection_container__DP22G .FeatureSection_container__DP22G_left_content :nth-child(6) svg {
+  margin-right: 10px;
+}
+.FeatureSection_container__DP22G .FeatureSection_container__DP22G_left_content :nth-child(7) svg {
+  margin-right: 10px;
+}
+
+.FeatureSection_container__DP22G .FeatureSection_container__DP22G_right_content img {
+  transition: transform 0.3s ease;
+}
+.FeatureSection_container__DP22G .FeatureSection_container__DP22G_right_content img:hover {
+  transform: scale(1.05);
 }
